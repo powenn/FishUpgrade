@@ -69,9 +69,9 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 50, height: 50, alignment: .center)
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("开心摸鱼")
+                    Text("開心摸魚")
                         .font(.system(size: 18, weight: .semibold, design: .rounded))
-                    Text("伪装的系统升级，摸鱼再合适不过啦～")
+                    Text("偽裝的系統升級，摸魚再合適不過啦～")
                         .font(.system(size: 8, weight: .semibold, design: .rounded))
                 }
                 Spacer()
@@ -80,7 +80,7 @@ struct ContentView: View {
             Group {
                 HStack {
                     Image(systemName: "timer")
-                    Text("摸鱼时长")
+                    Text("摸魚時長")
                     Spacer()
                     Text(makeTimeIntervalString())
                 }
@@ -92,7 +92,7 @@ struct ContentView: View {
                 ) { inEditing in
                     debugPrint("in editing? \(inEditing)")
                 }
-                Text("摸鱼结束时间: \(makeEndingDate())")
+                Text("摸魚結束時間: \(makeEndingDate())")
                     .font(.system(size: 10, weight: .semibold, design: .monospaced))
                     .background(Text("\(reloadTrigger ? 1 : 0)").hidden())
             }
@@ -103,8 +103,8 @@ struct ContentView: View {
                     Button {
                         let alert = NSAlert()
                         alert.alertStyle = .critical
-                        alert.messageText = "摸鱼过程中，请按 ESC 键退出哦～"
-                        alert.addButton(withTitle: "确定")
+                        alert.messageText = "摸魚過程中，請按 ESC 鍵退出哦～"
+                        alert.addButton(withTitle: "確定")
                         alert.beginSheetModal(for: NSApplication.shared.keyWindow ?? NSWindow()) { _ in
                             for window in NSApplication.shared.windows {
                                 window.close()
@@ -112,7 +112,7 @@ struct ContentView: View {
                             openFishWindow(withDuration: upgradeDuration * 60)
                         }
                     } label: {
-                        Text("一键摸鱼")
+                        Text("一鍵摸魚")
                     }
                     .padding()
                     Spacer()

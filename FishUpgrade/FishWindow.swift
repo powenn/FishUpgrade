@@ -18,7 +18,7 @@ struct FishView: View {
         completeDate = Date(timeIntervalSinceNow: TimeInterval(duration))
         self.duration = duration
         debugPrint("init duration \(duration)")
-        _ = disableScreenSleep(reason: "你在摸鱼呢")
+        _ = disableScreenSleep(reason: "你在摸魚呢")
     }
 
     /*
@@ -117,18 +117,18 @@ struct FishView: View {
         let min = Int((Int(timeLeft) % 3600) / 60)
         var str = ""
         if hour > 0 {
-            str += "\(hour) 小时"
+            str += "\(hour) 小時"
         }
         if hour > 0, min > 0 {
             str += " "
         }
         if min > 0 {
-            str += "\(min) 分钟"
+            str += "\(min) 分鐘"
         }
         if str.count < 1 {
             return ""
         }
-        return "剩余时间 " + str
+        return "剩餘時間 " + str
     }
 
     func makePercent() -> Double {

@@ -66,9 +66,9 @@ enum DoNotDisturb {
             if shortcutTest.stderr.contains("not found") {
                 NSWorkspace.shared.open(Bundle.main.url(forResource: "macos-focus-mode", withExtension: "shortcut")!)
                 let installAlert = NSAlert()
-                installAlert.messageText = "勿扰模式"
-                installAlert.informativeText = "请点击“添加快捷指令”以允许本程序控制勿扰模式。"
-                installAlert.addButton(withTitle: "添加好了")
+                installAlert.messageText = "勿擾模式"
+                installAlert.informativeText = "請點擊“加入捷徑”以允許本程式控制勿擾模式。"
+                installAlert.addButton(withTitle: "加入了")
                 installAlert.beginSheetModal(for: window, completionHandler: handler)
                 return
             }
