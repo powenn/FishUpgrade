@@ -1,0 +1,22 @@
+name: Build Package
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - uses: actions/checkout@v2
+      - name: submodules-init
+        uses: snickerbockers/submodules-init@v4
+      - name: Build
+        run: |
+          chmod +x ./compile.command
+          /bin/bash -c ./compile.command
+          zip -r9 FishUpgrade.zip FishUpgrade.app
+      - name: Upload App.zip
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          name: "FishUpgrade.zip"
+          path: "FishUpgrade.zip"
