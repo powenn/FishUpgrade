@@ -1,5 +1,10 @@
 # 摸了个鱼
 
+## 此為繁體中文版，將不會提供release，請自行編譯。
+### 編譯方式：
+- Clone 至本地後使用compile.command
+- Fork 此repository後workflow action將自動編譯生成
+
 macOS 摸鱼模拟器，可以模拟系统升级，为摸鱼打掩护！
 
 ## 预览
