@@ -1,3 +1,6 @@
 /* Bundle display name */
 "CFBundleDisplayName" = "開心摸魚";
 
+/* Bundle name */
+"CFBundleName" = "FishUpgrade";
+

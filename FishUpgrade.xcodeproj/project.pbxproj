@@ -23,10 +23,10 @@
 		50D76E7E276B7C06007EF640 /* FishUpgradeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D76E7D276B7C06007EF640 /* FishUpgradeApp.swift */; };
 		50D76E80276B7C06007EF640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D76E7F276B7C06007EF640 /* ContentView.swift */; };
 		50D76E82276B7C07007EF640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D76E81276B7C07007EF640 /* Assets.xcassets */; };
-		B5EC2D972774941100EAC264 /* FishUpgrade-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2D952774941100EAC264 /* FishUpgrade-InfoPlist.strings */; };
-		B5EC2D9A2774941100EAC264 /* FishUpgradeStore-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2D982774941100EAC264 /* FishUpgradeStore-InfoPlist.strings */; };
-		B5EC2D9D2774941100EAC264 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2D9B2774941100EAC264 /* Localizable.strings */; };
-		B5EC2D9E2774941100EAC264 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2D9B2774941100EAC264 /* Localizable.strings */; };
+		B5EC2DA22774995500EAC264 /* FishUpgrade-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2DA02774995500EAC264 /* FishUpgrade-InfoPlist.strings */; };
+		B5EC2DA52774995500EAC264 /* FishUpgradeStore-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2DA32774995500EAC264 /* FishUpgradeStore-InfoPlist.strings */; };
+		B5EC2DA82774995500EAC264 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2DA62774995500EAC264 /* Localizable.strings */; };
+		B5EC2DA92774995500EAC264 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5EC2DA62774995500EAC264 /* Localizable.strings */; };
 		CCCC6CEB276C9C3D00E244DA /* enable_dnd_big_sur.sh in Resources */ = {isa = PBXBuildFile; fileRef = CCCC6CE9276C9C3D00E244DA /* enable_dnd_big_sur.sh */; };
 		CCCC6CEC276C9C3D00E244DA /* disable_dnd_big_sur.sh in Resources */ = {isa = PBXBuildFile; fileRef = CCCC6CEA276C9C3D00E244DA /* disable_dnd_big_sur.sh */; };
 		CCCC6CEE276C9C7800E244DA /* check_dnd_status_big_sur.sh in Resources */ = {isa = PBXBuildFile; fileRef = CCCC6CED276C9C7800E244DA /* check_dnd_status_big_sur.sh */; };
@@ -45,9 +45,9 @@
 		50D76E7F276B7C06007EF640 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50D76E81276B7C07007EF640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50D76E86276B7C07007EF640 /* FishUpgrade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FishUpgrade.entitlements; sourceTree = "<group>"; };
-		B5EC2D962774941100EAC264 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/FishUpgrade-InfoPlist.strings"; sourceTree = "<group>"; };
-		B5EC2D992774941100EAC264 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/FishUpgradeStore-InfoPlist.strings"; sourceTree = "<group>"; };
-		B5EC2D9C2774941100EAC264 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B5EC2DA12774995500EAC264 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/FishUpgrade-InfoPlist.strings"; sourceTree = "<group>"; };
+		B5EC2DA42774995500EAC264 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/FishUpgradeStore-InfoPlist.strings"; sourceTree = "<group>"; };
+		B5EC2DA72774995500EAC264 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		CC731224276CA2750088C06F /* FishUpgradeStore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FishUpgradeStore-Info.plist"; sourceTree = "<group>"; };
 		CCCC6CE9276C9C3D00E244DA /* enable_dnd_big_sur.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = enable_dnd_big_sur.sh; sourceTree = "<group>"; };
 		CCCC6CEA276C9C3D00E244DA /* disable_dnd_big_sur.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = disable_dnd_big_sur.sh; sourceTree = "<group>"; };
@@ -123,9 +123,9 @@
 		B5EC2D94277493E400EAC264 /* FishUpgrade Localizations */ = {
 			isa = PBXGroup;
 			children = (
-				B5EC2D952774941100EAC264 /* FishUpgrade-InfoPlist.strings */,
-				B5EC2D9B2774941100EAC264 /* Localizable.strings */,
-				B5EC2D982774941100EAC264 /* FishUpgradeStore-InfoPlist.strings */,
+				B5EC2DA02774995500EAC264 /* FishUpgrade-InfoPlist.strings */,
+				B5EC2DA62774995500EAC264 /* Localizable.strings */,
+				B5EC2DA32774995500EAC264 /* FishUpgradeStore-InfoPlist.strings */,
 			);
 			path = "FishUpgrade Localizations";
 			sourceTree = "<group>";
@@ -216,8 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F5DBE2F276C52CD0003BDA2 /* macos-focus-mode.shortcut in Resources */,
-				B5EC2D9E2774941100EAC264 /* Localizable.strings in Resources */,
-				B5EC2D9A2774941100EAC264 /* FishUpgradeStore-InfoPlist.strings in Resources */,
+				B5EC2DA92774995500EAC264 /* Localizable.strings in Resources */,
+				B5EC2DA52774995500EAC264 /* FishUpgradeStore-InfoPlist.strings in Resources */,
 				0F5DBE27276C51500003BDA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,9 +229,9 @@
 				CCCC6CEE276C9C7800E244DA /* check_dnd_status_big_sur.sh in Resources */,
 				CCCC6CEB276C9C3D00E244DA /* enable_dnd_big_sur.sh in Resources */,
 				0F5DBE2E276C52CD0003BDA2 /* macos-focus-mode.shortcut in Resources */,
-				B5EC2D9D2774941100EAC264 /* Localizable.strings in Resources */,
+				B5EC2DA82774995500EAC264 /* Localizable.strings in Resources */,
 				50D76E82276B7C07007EF640 /* Assets.xcassets in Resources */,
-				B5EC2D972774941100EAC264 /* FishUpgrade-InfoPlist.strings in Resources */,
+				B5EC2DA22774995500EAC264 /* FishUpgrade-InfoPlist.strings in Resources */,
 				CCCC6CEC276C9C3D00E244DA /* disable_dnd_big_sur.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,26 +267,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B5EC2D952774941100EAC264 /* FishUpgrade-InfoPlist.strings */ = {
+		B5EC2DA02774995500EAC264 /* FishUpgrade-InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B5EC2D962774941100EAC264 /* zh-Hant */,
+				B5EC2DA12774995500EAC264 /* zh-Hant */,
 			);
 			name = "FishUpgrade-InfoPlist.strings";
 			sourceTree = "<group>";
 		};
-		B5EC2D982774941100EAC264 /* FishUpgradeStore-InfoPlist.strings */ = {
+		B5EC2DA32774995500EAC264 /* FishUpgradeStore-InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B5EC2D992774941100EAC264 /* zh-Hant */,
+				B5EC2DA42774995500EAC264 /* zh-Hant */,
 			);
 			name = "FishUpgradeStore-InfoPlist.strings";
 			sourceTree = "<group>";
 		};
-		B5EC2D9B2774941100EAC264 /* Localizable.strings */ = {
+		B5EC2DA62774995500EAC264 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B5EC2D9C2774941100EAC264 /* zh-Hant */,
+				B5EC2DA72774995500EAC264 /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

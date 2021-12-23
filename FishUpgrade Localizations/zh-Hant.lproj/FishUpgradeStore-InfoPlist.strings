@@ -1,3 +1,9 @@
 /* Bundle display name */
 "CFBundleDisplayName" = "開心摸魚";
 
+/* Bundle name */
+"CFBundleName" = "FishUpgradeStore";
+
+/* Copyright (human-readable) */
+"NSHumanReadableCopyright" = "Copyright © 2021 Lakr Aream. All rights reserved.";
+
